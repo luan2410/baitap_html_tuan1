@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 900px;
+            height: 780px;
+            background-color: rgb(255,208,120);
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form>
+            <h2>Survey Form</h2>
+            <p>If you are interested in purchasing one or more of our priducts, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank you very much for your time!</p>
+            <form>
+            <ol>
+            <li><label for="name"> What is your name?</label></li>
+            <input type="text" name="name" id="name" value="" size="20" maxlength="20">
+            <br><br>
+            <li><label for="birthday"> What is your date of birth?</label></li>
+            <label for="month">Month:</label>
+            <select name="birthday" id="month">
+                <option value="January">January</option>     
+                <option value="February">February</option>   
+                <option value="March">March</option>   
+                <option value="April">April</option>   
+                <option value="May">May</option>   
+                <option value="June">June</option>   
+                <option value="July">July</option>   
+                <option value="August">August</option>   
+                <option value="September">September</option>   
+                <option value="October">October</option>   
+                <option value="November">November</option>   
+                <option value="December">December</option>   
+            </select>
+            <label for="date">Date:</label>
+            <select name="birthday" id="date">
+                <option value="1">1</option>     
+                <option value="2">2</option>   
+                <option value="3">3</option>     
+                <option value="4">4</option>   
+                <option value="5">5</option>     
+                <option value="6">6</option>   
+                <option value="7">7</option>     
+                <option value="8">8</option>   
+                <option value="9">9</option>     
+                <option value="10">10</option>   
+                <option value="11">11</option>     
+                <option value="12">12</option>   
+                <option value="13">13</option>     
+                <option value="14">14</option>   
+                <option value="15">15</option>     
+                <option value="16">16</option>   
+                <option value="17">17</option>     
+                <option value="18">18</option>   
+                <option value="19">19</option>     
+                <option value="20">20</option>   
+                <option value="21">21</option>     
+                <option value="22">22</option>   
+                <option value="23">23</option>     
+                <option value="24">24</option>   
+                <option value="25">25</option>     
+                <option value="26">26</option>   
+                <option value="27">27</option>     
+                <option value="28">28</option>   
+                <option value="29">29</option>     
+                <option value="30">30</option>   
+                <option value="31">31</option>     
+            </select>
+            <label for="year">Year:</label>
+            <input type="datetime" name="year" id="year" value="" size="1" maxlength="2">
+            <br><br>
+            <li><label for="mail">What is your mailing address (if you would like to have a hard copy of our catalog sent to you)</label></li>
+            <textarea name="mail" id="mail" cols="40" rows="5">
+Number/P.O Box/Route:
+Street/Avenue/Road: 
+City: 
+State/Zip:
+</textarea>
+            <br><br>
+            <li><label for="email">What is your email address?</label></li>
+            <input type="email" name="email" id="email" value="" size="20" maxlength="20">
+            <br><br>
+            <li><label for="viewed">Have you viewed our online product catalog</label></li>
+            <input type="radio" name="viewed" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="viewed" id="no">
+            <label for="no">No</label>
+            <br><br>
+            <li><label for="if">If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply.) </label></li>
+            <input type="checkbox" name="if" id="VCR" >
+            <label for="VCR">VCR</label><br>
+            <input type="checkbox" name="if" id="Big Screen" >
+            <label for="Big Screen">Big Screen TV</label><br>
+            <input type="checkbox" name="if" id="Audio Equipment" >
+            <label for="Audio Equipment">Audio Equipment</label><br>
+            <input type="checkbox" name="if" id="Video Equipment" >
+            <label for="Video Equipment">Video Equipment</label><br>
+            <input type="checkbox" name="if" id="Camera Equipment" >
+            <label for="Camera Equipment">Camera Equipment</label><br>
+            <label for="Other">Other</label>
+            <input type="text" name="if" id="Other" value="Please List:" size="20" maxlength="">
+            <br><br>
+            <li><label for="questions">Do you have any questions, comments or suggestions before proceeding to the Order Form?</label></li>
+            <textarea name="if" id="questions" cols="60" rows="5">Your Input:</textarea>
+            <br><br>
+            <div style="text-align: center;">
+                <input type="submit" value="Send Form">
+            <input type="reset" value="Clear Form">
+            </div>   
+            </ol>
+        </form>
+    </div>
+
+    
+    
+    
+</body>
+</html>

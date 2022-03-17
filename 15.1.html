@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your message:</legend>
+        <form action="" method="post">
+            <h1>Contac Us</h1>
+            <p>Use the following form to send a message to Example Cafe</p>
+            <table>
+                <tr>
+                    <td><label for="email">Your Email</label> </td>
+                    <td> <input type="email" id="email" name="email" value="" size="20" maxlength="20"><br> </td>
+                </tr>
+                <tr>
+                    <td><label for="massage" >Massge</label></td>
+                    <td> <textarea name="message" cols="50" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset> 
+    <fieldset>
+        <legend> How you found us:</legend>
+        <table>
+            <tr>
+                <td><label for="toolsearch">How did you hear of us?</label></td>
+                <td><input list="toolsearch" name="toolsearch">
+                <datalist id="toolsearch">
+                     <option value="Google">
+                     <option value="Yahoo">
+                </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="news">Newsletter</label> </td>
+                <td><input type="checkbox" id="news" name="news" value="" > Ensure this box is checked if you would like to receive email updates</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Send message"></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>

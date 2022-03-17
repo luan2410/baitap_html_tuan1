@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <label for="browser">Browser</label>
+            <select name="browser" id="browser">
+                <option value=""></option>
+                <option value="chrome">Chorme</option>
+                <option value="ie">Internet Explorer</option>
+                <option value="firefox">Firefox</option>
+            </select>
+            <br><br>
+            <label for="username">Username</label>
+            <input type="text" name="usename" id="username" value="" size="20" maxlength="20">
+            <br><br>
+            <label for="encryption">Encryption</label>
+            <select name="encryption" id="encryption">
+                <option value="2048">2048 (High Grade)</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <br><br>
+            0
+            <input type="range" id="a" name="a" value="70">
+            100 
+            <br>
+            <input type="number" id="b" name="b" value="50">
+            <output name="x" for="a b"></output>
+            <br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="birthday" id="birthday">
+            <br><br>
+            <label for="color">Select your favorite color:</label>
+            <input type="color" name="color" id="color">
+            <br><br>
+            <label for="month_year">Birthday (month and year):</label>
+            <input type="month" id="month_year" name="month_year">
+            <br><br>
+            <label for="week">Select a week:</label>
+            <input type="week" name="week" id="week">
+            <br><br>
+            <label for="time">Select a time:</label>
+            <input type="time" name="time" id="time">
+            <br><br>
+            <label for="date_time">Birthday (date and time):</label>
+            <input type="datetime" name="date_time" id="date_time">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="search">Search Google:</label>
+            <input type="search" name="search" id="search">
+            <br><br>
+            <label for="telephone">Telephone:</label>
+            <input type="number" name="telephone" id="telephone">
+            <br><br>
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" name="homepage" id="homepage">
+            <br><br>
+            <input type="submit" value="Submit">
+            <br><br>
+            <p><b>Note:</b> The datalis tag is not supported in Safiri or IE9 (and earlier).</p>
+        </form>
+    </div>
+</body>
+</html>
